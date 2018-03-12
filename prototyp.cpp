@@ -23,8 +23,8 @@ void watek_1()
         y = 0;
         mvaddch(y, x, 'A');
         x += 1;
- 		    usleep(100000);
- 		    refresh();
+ 		     usleep(100000);
+ 		     refresh();
  	}
 } 
 void watek_2() 
@@ -36,8 +36,8 @@ void watek_2()
         mvaddch(y, z, 'B');
         mvaddch(y, z, ' ');
         z += 1;
- 		    usleep(200000);
- 		    refresh();
+ 		     usleep(200000);
+ 		     refresh();
  	}
 } 
 
